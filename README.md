@@ -10,7 +10,7 @@ Sensor単位で情報を出しています。Next/Backボタンでページ送�
 DefaultAcc: Unityが使用する加速度センサーの名前です。<br />
 
 name:現在情報を出しているセンサーの名前です。<br />
-power:センサーの消費電力です。Sensor.getPowerで取得しています。恐らく単位は mAH<br />
+power:センサーの消費電力です。Sensor.getPowerで取得しています。恐らく単位は mA<br />
 mode:Sensor.getReportingModeで取得してきた値。0なら継続的にレポート。1なら変化があった時にレポート。
 delay:Sensor.getMinDelay() ～ Sensor.getMaxDelay()の値を出しています.
 
