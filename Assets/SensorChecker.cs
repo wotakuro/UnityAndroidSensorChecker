@@ -32,10 +32,10 @@ public class SensorChecker : MonoBehaviour {
                 string defaultAccSensor = jc.CallStatic<string>("getDefaultAccSensor" );
                 string name = jc.CallStatic<string>("getSensorName", idx);
 
-                text.text = StrOpe.i + idx + "/" + cnt + "\n" + "DefaultAcc:" + defaultAccSensor + "\n" + "name:" +
-                    name + "\n" + "pow:" + power + "\n" + "mode:" + mode
-                    + "\n" + "minDelay:" + min
-                    + "\n" + "maxDelay:" + max
+                text.text = StrOpe.i + idx + "/" + cnt + "\n" + "DefaultAcc:" + defaultAccSensor + "\n\n" + "name:" +
+                    name + "\n" + "power:" + power + "\n" + "mode:" + mode
+                    + "\n" + "Delay:" + min
+                    + " - " + max
                     + "\n" + "isWakeup:" + isWakeup;
             }
         }
